@@ -7,6 +7,6 @@ plot(x,y,'b')
 hold on
 plot(x,z,'g')
 grid on
-xlabel("Values of x")
-ylabel("sin(x) and cos(x)")
+xlabel('Values of x')
+ylabel('sin(x) and cos(x)')
 legend('sin(x)','cos(x)')

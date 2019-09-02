@@ -1,3 +1,6 @@
 clc
 clear
-exp(-5)*sin(2) + sqrt(8)*10
+a=5
+x=2
+y=8
+exp(-a)*sin(x) + sqrt(y)*10
