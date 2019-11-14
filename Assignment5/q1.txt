@@ -1,0 +1,24 @@
+>> F= inline('x*(y)^2+y')
+
+F =
+
+     Inline function:
+     F(x,y) = x*(y)^2+y
+
+>> dydt= ode45(F,[0:0.1:5],1)
+Warning: Failure at t=9.999854e-01.  Unable to meet integration tolerances without reducing the step size below the smallest value
+allowed (1.776357e-15) at time t. 
+> In ode45 (line 308) 
+
+dydt =
+
+         0
+    0.1000
+    0.2000
+    0.3000
+    0.4000
+    0.5000
+    0.6000
+    0.7000
+    0.8000
+    0.9000
